@@ -63,10 +63,12 @@ public class AddProduct extends AppCompatActivity implements CatalogFragment.OnF
     String imagename;
     String shipindays="";
     TextView txtRemaing;
+    //commewnt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_product);
+        // Test changes
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
