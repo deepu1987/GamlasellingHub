@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    tools:context="in.gamlasellinghub.com.gamlasellinghub.AddProduct">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/productphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addphoto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Photos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+<Spinner
+    android:id="@+id/selectcategory"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:textSize="14dp"
+    />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/productname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Product Name"
+            android:singleLine="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/skuid"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Merchant SKU Id"
+            android:singleLine="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mrp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:hint="MRP"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+        <EditText
+            android:id="@+id/sellingprice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:hint="Selling Price"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+
+        <EditText
+            android:id="@+id/quantatity"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:hint="Quantatity"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Weight(in grams)"
+            android:inputType="number"
+            android:singleLine="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="14dp"
+            />
+    </LinearLayout>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="left|center_vertical"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_height="wrap_content"
+    android:text="Ship in Days"
+    />
+        <Spinner
+
+            android:id="@+id/shipdayspinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Weight(in grams)"
+android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+
+            android:textSize="14dp"
+            />
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="220dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="18dp"
+    android:layout_marginLeft="16dp"
+    android:textColor="@color/black"
+    android:text="Add Description"
+    />
+        <TextView
+            android:id="@+id/textremainig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/black"
+            android:text="Text Remaining : 400"
+            />
+<EditText
+    android:id="@+id/description"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_edit_text"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:maxLength="400"
+    android:padding="@dimen/margin"
+    android:gravity="top|left"
+    android:layout_height="140dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="vertical">
+
+       <Button
+           android:id="@+id/addSubmit"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:background="@color/colorPrimaryDark"
+           android:textColor="@color/white"
+           android:layout_marginLeft="16dp"
+           android:layout_marginRight="16dp"
+           android:text="Submit"
+           />
+    </LinearLayout>
+</LinearLayout>
+   
+</ScrollView>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Gamla selling Hub</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="nav_item_activity_titles">
+        <item>Dashboard</item>
+        <item>Orders</item>
+        <item>Catalog</item>
+        <item>Payments</item>
+        <item>Return</item>
+        <item>Promotion</item>
+    </string-array>
+    <string name="dashboard">Dashboard</string>
+    <string name="orders">Orders</string>
+    <string name="Catalog">Catalog</string>
+    <string name="payment">Payment</string>
+    <string name="promotion">promotion</string>
+    <string name="nav_about_us">About us</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="action_logout">Logout</string>
+    <string name="search_title">Search</string>
+    <string name="returnn">Return</string>
+    <string name="editquantatity">Edit Quantity</string>
+    <string name="totalstock">Total Stock: </string>
+    <string name="save">Save</string>
+    <string name="cancel">CANCEL</string>
+    <string name="Warehouse">Warehouse</string>
+    <string name="merchantlocation"></string>
+    <string name="stock">Stock</string>
+
+    <string name="status">Status</string>
+    <string name="mrp">MRP</string>
+    <string name="SellingPrice">Selling Price</string>
+    <string name="marketplacecomission">Marketplace Comission</string>
+    <string name="PaymentGatewayFees">Payment Gateway Fees</string>
+    <string name="shippingregionfees">Shipping Region Fee</string>
+    <string name="servicetax">Service Tax</string>
+    <string name="totaldeduction">Total Deduction</string>
+    <string name="expectedpayout">Expected Payout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="state_name">
+        <item>Select State</item>
+        <item>Andrha Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Lakshadeep</item>
+        <item>Pondicherry</item>
+
+    </string-array>
+    <string-array name="category_name">
+        <item>Select Category</item>
+        <item>Indoor Plants</item>
+        <item>Outdoor Plants</item>
+        <item>Pots</item>
+        <item>Antiques With Plants</item>
+        <item>Fruit Plants</item>
+        <item>Fertilizer and Pestisides</item>
+        <item>Seeds</item>
+        <item>Landscapers</item>
+    </string-array>
+</resources>

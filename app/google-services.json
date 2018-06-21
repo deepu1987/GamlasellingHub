@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "152815369992",
+    "firebase_url": "https://gamlasellerhub.firebaseio.com",
+    "project_id": "gamlasellerhub",
+    "storage_bucket": "gamlasellerhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152815369992:android:6b7317065315d9c8",
+        "android_client_info": {
+          "package_name": "in.gamlasellinghub.com.gamlasellinghub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152815369992-ppcrtg2giepb76ksqqegl456u5qohgs2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "152815369992-ppcrtg2giepb76ksqqegl456u5qohgs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIP3Spljp7V6qMhF32NymhbKpMGGG50-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

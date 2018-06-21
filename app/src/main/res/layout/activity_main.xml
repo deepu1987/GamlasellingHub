@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="in.gamlasellinghub.com.gamlasellinghub.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!-- <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="top"
+         android:src="@mipmap/upper_grass" />
+
+
+ -->
+    <TextView
+        android:id="@+id/appnamespash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gamla Seller hub"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/gamla" />
+    <!--<pl.droidsonroids.gif.GifTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/spash"
+        />-->
+
+</LinearLayout>
