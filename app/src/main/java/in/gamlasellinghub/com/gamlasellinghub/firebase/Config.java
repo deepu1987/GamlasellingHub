@@ -8,7 +8,7 @@ package in.gamlasellinghub.com.gamlasellinghub.firebase;
 public class Config {
 
     // global topic to receive app wide push notifications
-    public static final String TOPIC_GLOBAL = "global2";
+    public static final String TOPIC_GLOBAL = "global";
 
     // broadcast receiver intent filters
     public static final String REGISTRATION_COMPLETE = "registrationComplete";
